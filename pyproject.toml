@@ -1,0 +1,14 @@
+[project]
+name = "scout-learning"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13.3"
+dependencies = [
+    "datasets>=5.1.0",
+    "huggingface-hub>=2.3.0",
+    "inspect-ai>=0.3.285",
+    "inspect-scout>=0.6.1",
+    "pandas>=3.1.0",
+    "python-dotenv>=1.2.4",
+]
