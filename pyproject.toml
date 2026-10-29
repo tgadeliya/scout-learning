@@ -6,9 +6,12 @@ readme = "README.md"
 requires-python = ">=3.13.3"
 dependencies = [
     "datasets>=5.1.0",
+    "duckdb>=1.5.6",
     "huggingface-hub>=2.3.0",
     "inspect-ai>=0.3.285",
+    "inspect-evals[cybench]==0.26.0",
     "inspect-scout>=0.6.1",
+    "openai>=3.41.0",
     "pandas>=3.1.0",
     "python-dotenv>=1.2.4",
 ]

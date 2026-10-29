@@ -3,8 +3,18 @@
 .env.*
 !.env.example
 
+# logs, scans and transcripts
+logs/
+scans/
+spar_logs/
+transcripts-*/*    
+transcripts-*/*    
+
+.claude
+
 # Python
 __pycache__/
 *.py[cod]
 .venv/
 .mypy_cache/
+uv.lock

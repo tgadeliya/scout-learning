@@ -1,2 +1,2 @@
-transcripts: ./logs
+transcripts: ./spar_logs
 model: openai/gpt-5.4-mini
